@@ -1,0 +1,11 @@
+Overview
+This project implements a Question Answer System (QAS) using Transformer models, leveraging the Hugging Face Transformers library. The system is designed to take a set of documents or passages, along with user queries, and provide relevant answers based on the content of the passages.
+
+
+
+Features
+Transformer Models: The project utilizes powerful pre-trained Transformer models for natural language understanding. You can easily swap out the model with different versions or architectures provided by the Hugging Face Transformers library.
+
+Pipeline Approach: The QAS is implemented using the Hugging Face Transformers pipeline, simplifying the process of building and deploying the system. The pipeline handles tokenization, model loading, and inference seamlessly.
+
+Pandas Integration: The system is designed to handle input data in the form of Pandas DataFrames, making it easy to preprocess, manipulate, and analyze data before feeding it to the QAS.
